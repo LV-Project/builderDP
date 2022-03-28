@@ -44,36 +44,4 @@ public class MonsterCreation implements Builder {
 
 
 
-//    public static class Builder {
-//
-//        private String name;
-//        private int arms;
-//        private int legs;
-//        private boolean hasWings;
-//        private int hasLasers;
-//
-//        public Builder name (final String name) {
-//            this.name=name;
-//            return this;
-//        }
-//        public Builder arms (final int arms) {
-//            this.arms = arms;
-//            return this;
-//        }
-//        public Builder legs (final int legs) {
-//            this.legs = legs;
-//            return this;
-//        }
-//        public Builder hasWings (final boolean hasWings){
-//            this.hasWings = hasWings;
-//            return this;
-//        }
-//        public Builder hasLasers(final int hasLasers){
-//            this.hasLasers = hasLasers;
-//            return this;
-//        }
-//        public RobotCreation build(){
-//            return new RobotCreation(this);
-//        }
-//    }
 }

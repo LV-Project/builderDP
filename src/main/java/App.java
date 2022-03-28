@@ -1,18 +1,6 @@
 public class App {
     public static void main(String[] args) {
 
-//        RobotCreation robot1 = new RobotCreation.Builder()
-//                                                .name("Rupenstisky")
-//                                                .arms(1)
-//                                                .hasWings(true)
-//                                                .build();
-//
-
-
-//        System.out.println(robot1);
-//        System.out.println(robot2);
-
-
         Director director = new Director();
         RobotCreation builderRo = new RobotCreation();
         director.constructorRobot(builderRo);

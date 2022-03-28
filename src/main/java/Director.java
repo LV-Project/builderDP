@@ -1,14 +1,17 @@
 public class Director {
 
-    private String nombre;
+
 
     public void constructorRobot(Builder builder){
 
-//        builder.setName("Wilfredo");
-//        builder.setName(nombre);
+        builder.setName("Wilfredo");
+
         builder.setArms(2);
         builder.setLegs(1);
         builder.setType(CreationType.ROBOT);
+
+
+
     }
     public void constructorMonster(Builder builder){
         builder.setName("Dogix");
@@ -18,4 +21,5 @@ public class Director {
         builder.setHasWings(true);
         builder.setType(CreationType.MONSTER);
     }
+
 }
